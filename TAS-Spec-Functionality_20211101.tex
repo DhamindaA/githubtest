@@ -430,9 +430,18 @@ The recent advances in machine learning offer the potential to increase the auto
 When one considers the conventional flight controller of a UAV, it can include several measures, such as risetime, overshoot, settling time, and steady-state error.
 The goal of these specification measures is to ensure that the control system is stable and robust. 
 There is disturbance attenuation against environmental uncertainty; smooth and rapid responses to set-point changes; and steady-state accuracy. 
+%In this context, a key challenge is how do we specify a UAV should deal with situations that go beyond the limits of its training?
+
+First, the unclear and uncertain government regulations make it challenging, as these rules may change over time. 
+Second, the complexity and uncertainty of the operational environment of the UAV itself is a challenge. 
+For example, in a parcel delivery service using UAVs in an urban environment, we could mention uncertain flight conditions (e.g. wind gradients), and highly dynamic and uncertain airspace (e.g. other UAVs in operation). 
+
+
+The recent advances in machine learning offer the potential to increase the autonomy of UAVs by allowing them to learn from experience. For example, machine learning can be used to stabilize the flight which can greatly improve performance in gusty urban wind conditions. 
+When one considers the conventional flight controller of a UAV, it can include several measures, such as risetime, overshoot, settling time, and steady-state error.
+The goal of these specification measures is to ensure that the control system is stable and robust. 
+There is disturbance attenuation against environmental uncertainty; smooth and rapid responses to set-point changes; and steady-state accuracy. 
 In this context, a key challenge is how do we specify a UAV should deal with situations that go beyond the limits of its training?
-
-
 %infrastructure monitoring, surveillance, emergency response, and package delivery.
 %The autonomy and decision-making abilities of UAVs is currently limited and well below the level required to operate fully autonomously. However, recent advances in machine learning offer the potential to increase the autonomy of these systems by allowing them to learn from experience. 
 %
