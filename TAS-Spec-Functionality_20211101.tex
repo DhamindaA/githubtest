@@ -1,0 +1,729 @@
+%%
+%% This is file `sample-sigconf.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigconf')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigconf]{acmart}
+
+\usepackage{enumitem}
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+%\setcopyright{acmcopyright}
+%\copyrightyear{2018}
+%\acmYear{2018}
+%\acmDOI{10.1145/1122445.1122456}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+%\acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural
+%  Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
+%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%  June 03--05, 2018, Woodstock, NY}
+%\acmPrice{15.00}
+%\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{On Specifying for Trustworthiness}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Name of Author 1}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 2}
+\affiliation{%
+  \institution{Institute}
+  \streetaddress{Street address}
+  \city{City}
+  \country{Country}}
+\email{Email}
+
+\author{Name of Author 3}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 4}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 5}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 6}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 7}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 8}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 9}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 10}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 11}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+\author{Name of Author 12}
+\affiliation{%
+	\institution{Institute}
+	\streetaddress{Street address}
+	\city{City}
+	\country{Country}}
+\email{Email}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Author name, et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+As autonomous systems are becoming part of our daily lives, specifying for trustworthiness of these systems is crucial. ...
+In this article, we take a broad view of specification, concentrating on top-level requirements including but not limited to functionality, safety, security and other non-functional properties that contribute to trustworthiness. 
+The main contribution of this article is a set of high-level intellectual challenges related to specifying a trustworthy autonomous system without focussing on how these challenges are actually realized. We also identify their potential uses in a variety of autonomous systems domains. ...
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+	<ccs2012>
+	<concept>
+	<concept_id>10010147.10010178</concept_id>
+	<concept_desc>Computing methodologies~Artificial intelligence</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10011074.10011075.10011076</concept_id>
+	<concept_desc>Software and its engineering~Requirements analysis</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10010940</concept_id>
+	<concept_desc>Software and its engineering~Software organization and properties</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10010940.10010992</concept_id>
+	<concept_desc>Software and its engineering~Software functional properties</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10010940.10011003</concept_id>
+	<concept_desc>Software and its engineering~Extra-functional properties</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Artificial intelligence}
+\ccsdesc[500]{Software and its engineering~Requirements analysis}
+\ccsdesc[500]{Software and its engineering~Software organization and properties}
+\ccsdesc[500]{Software and its engineering~Software functional properties}
+\ccsdesc[500]{Software and its engineering~Extra-functional properties}
+
+%\ccsdesc[500]{Computing methodologies~Artificial intelligence}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+%\keywords{datasets, neural networks, gaze detection, text tagging}
+\keywords{autonomous systems, trust, specification}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+%An \textit{autonomous system}is a system that involves software applications, machines and people, which is capable of taking actions with no or little human supervision \cite{TAS-Hub}. 
+%Autonomous systems are no longer being confined to safety-controlled industrial settings. 
+%Instead, these systems are becoming increasingly used in our daily lives having matured across different domains, such as driverless cars, unmanned aerial vehicles, and healthcare robotics. 
+%As a result, specifying for \textit{trustworthiness} of these systems is crucial. 
+%
+%According to ISO/IEC 2382:2015 standard, \textit{specification} is a detailed formulation that provides a definitive description of a system for the purpose of developing or validating the system \cite{ISO2382}. 
+%Writing specifications that capture trust is challenging \cite{Kress-Gazit21}. 
+%A human trusts a robot to perform its actions, if it demonstrably acts in a safe manner. 
+%Here, the robot not only needs to be safe, but also needs to be perceived as safe by the human. 
+%In the same manner, in shared human-robot control situations, it is equally important to ensure that the robot can trust the human. 
+%This is particularly important in safety-critical scenarios when the robot needs to perform a task on behalf of the human where reasoning about trust is needed. 
+%In this regard, measuring human's current state (e.g. levels of fatigue, frustration) and assessing human's ability to actually perform the task are critical factors. 
+%To realize this, specification needs to consider formalisms that go beyond typical safety and liveness notions. 
+%
+%Different research disciplines define \textit{trust} in many ways. 
+%Our study focuses on the notion that concerns the relationship between humans and autonomous systems. 
+%According to \cite{TAS-Hub}, autonomous systems are trustworthy depending on several key factors, such as:  robustness in dynamic and uncertain environments; assurance of their design and operation; confidence they provide; explainability; defences against attacks; governance and regulation of their design and operation; and consideration of human values and ethics.
+%
+%In this article, we take a broad view of specification, concentrating on top-level requirements including but not limited to functionality, safety, security and other non-functional properties that contribute to trustworthiness. 
+%The main contribution of this article is a set of high-level intellectual challenges related to specifying a trustworthy autonomous system without focussing on how these challenges are actually realized. 
+%In this article, we discuss approaches for specifying trustworthy autonomous systems and identify their potential uses in a variety of autonomous systems domains. 
+%We conclude with a set of intellectual research challenges for the community.
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Autonomous Systems Domains and Their Unique Challenges}
+Each autonomous systems domain brings about unique specification challenges: 
+
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{Swarm Robotics}
+Swarm robotics provides an approach to the coordination of large numbers of robots, which is inspired from the observation of social insects \cite{Sahin2005}. 
+Robustness, flexibility and scalability are three desirable properties in any swarm robotics system. 
+In \cite{Sahin2005}, a set of criteria is proposed for distinguishing swarm robotic research from multi-robot systems. 
+The individual robots that make up the swarm need to be autonomous. Also, there need to be a large number of robots; a few homogenous groups of robots; relatively incapable or inefficient robots; and robots with local sensing and communication capabilities. 
+
+The functionality of a swarm is emergent (e.g. aggregation, coherent ad hoc network, taxis, obstacle avoidance and object encapsulation \cite{Winfield2006}), and evolves based on the capabilities of the robots and the numbers of robots used. 
+%Examples of this emergent behavior can be aggregation, coherent ad hoc network, taxis, obstacle avoidance and object encapsulation \cite{Winfield2006}. 
+The overall desired behaviours of a swarm are not explicitly coded or engineered in the system, but they are an emergent consequence of the interaction of individual agents with each other and the environment.
+This evolving functionality across many individual robots poses a challenge in how best to specify a swarm that is trustworthy by design, useful, and acceptable to users?
+
+%Examples of this emergent behavior can be aggregation, coherent ad hoc network, taxis, obstacle avoidance and object encapsulation \cite{Winfield2006}. 
+% Typical swarm behaviour are 
+%So, in this context, how do we ensure safety or any other extra-functional property of a swarm that exhibits emergent behaviour?
+%
+%evolving functionality through emergent behaviour – Application example: Storage and retrieval operations using swarm robots
+%
+%Functionality of the system is emergent, a concept rarely used in engineered systems, and evolves based on the capabilities of the robots and the numbers of robots used. However this evolving functionality across many individual robots poses challenges in relation to Design-for-Trustworthiness considerations.
+%How best to develop swarms that are trustworthy by design, useful, and acceptable to users based around the development of swarm systems for storage and retrieval.
+
+
+
+
+%Swarm robotics is the study of how large number of relatively simple physically embodied agents can be designed such that a desired collective behavior emerges from the local interactions among agents and between the agents and the environment.
+%
+%There are several criteria that distinguishes swarm robotics from other related robotics areas such as multi-robot systems. 
+
+
+
+
+%that provide examples of how a large number of simple individuals can interact to create collectively intelligent systems.
+%
+%
+%Swarm Aggregation:
+%Stay together [Winfield and Nembrini, 2006]
+%Coherent ad hoc network:
+%Lowest swarm behavior is coherence [Winfield and Nembrini, 2006]
+%Each robot has range-limited wireless communication
+%While moving, “I am here” message (also contains IDs of its neighbors)
+%Swarm is coherent if any break in its overall connectivity lasts less than a given time constant C
+%Beacon Taxis:
+%Taxis is swarm attraction toward the object (taxis); net swarm movement
+%Behaviour of a swarm flocking together towards a light source is called beacon taxis
+%Obstacle Avoidance
+%Object Encapsulation (Containment)
+%Robots surrounding the target object (beacon) 
+%[Winfield and Nembrini, 2006]
+
+%Such a network would be an advantage in many swarm robotics applications. The algorithm requires that connectivity information is transmitted only a single hop. Each robot broadcasts its ID and the IDs of its immediate neighbours only, and since the maximum number of neighbours a real robot can have is physically constrained and the same for a swarm of 100 or 10,000 robots, the algorithm scales linearly for increasing swarm size. We have (we contend) a highly robust and scalable swarm of homogeneous and relatively incapable robots with only local sensing and communication capabilities, in which the required swarm behaviours are truly emergent.
+%
+%“Swarm robotics is the study of how a large number of relatively simple physically embodied agents can be designed such that a desired collective behaviour emerges from the local interactions among the agents and between the agents and the environment.” [Sahin, 2004]
+%Three qualities: 
+%Robustness
+%Flexibility
+%Scalability
+%
+%In addition to the definition of swarm robotics provided above (taken
+%from ( Sahin, 2004)), Erol Sahin proposed a set of criteria for distinguishing
+%swarm robotic research from traditional multi-robot research ( Sahin,
+%2004):
+%
+%Autonomous robots [Sahin, 2004]
+%Large number of robots:
+%Aim for scalability
+%Few homogenous groups of robots:
+%Individuals in each group should not be assigned different roles
+%Relatively incapable or inefficient robots [Sahin, 2004]:
+%Incapable: individuals are unable to carry out task by themselves and cooperation of a swarm is required to achieve goal
+%Inefficient: deployment of multi-robots should improve performance/robustness of handling the task
+%Robots with local sensing and communication capabilities:
+%Use local communication only and have limited sensing abilities
+%Global information is prohibited
+
+
+
+
+%Previous investigations have shown that users are open to adopting swarm robotic solutions, if the swarms are implemented in a trustworthy manner. 
+%For example, let us take an example of a case study that describes a public cloakroom where swarm of robots assist customers looking to deposit their jackets at an event. Specification challenges...
+%
+%Previous investigations have shown that users are open to adopting swarm robotic solutions, if the swarms are implemented in a trustworthy manner. 
+%One of the main goals of Work Package 5 of our Node is to identify the best manner in which to deploy a trustworthy swarm, such as the swarm of DOTS moving boxes as you see in Figure 4.
+%
+%The case study describes a public cloakroom where swarm of robots assist customers looking to deposit their jackets at an event. 
+%It describes cases where customers are depositing jackets, handing a jacket to a robot for storing, and retrieval of jackets back to the customer. 
+%
+
+
+%
+%This is an example of how risks are analysed and high-level safety requirements are derived for a hazard (at the individual robot level) following the ISO 13482 standard. 
+%In this case, the hazard being analysed is “Collision with safety-related objects”. 
+%
+%Similarly we consider hazards related to:
+%Incorrect autonomous decisions and actions
+%Battery charging hazards
+%Physical contact during human-robot interaction
+%Robot motion
+%
+%And, that brings me to my second specification challenge.
+%
+%Swarm behaviours in the cloakroom can be: aggregation, Coherent ad-hoc network, Information retrieval, Taxis towards pick up and delivery areas of boxes, etc.
+%
+%In regards to learning in the swarm, I had a discussion with Simon Jones a few days ago, who is developing the physical robots for WP5.
+%At present, as also mentioned in his PhD thesis, he is using “evolutionary behaviour trees” to provide some "offline learning" where the loop is NOT closed.
+%There the learning performed is in response to a fixed problem specification. 
+%I hear from him that in future he will be considering evolutionary behaviour trees with online learning that has a closed loop.
+%
+%So, in a swarm, the overall desired behaviours are not explicitly coded in the system. 
+%They are an emergent consequence of the interaction of individual agents with each other and the environment.
+%So, in this context, how do you ensure safety or any other extra-functional property for a swarm that exhibits emergent behaviour?
+%
+%
+%As a step towards addressing this specification challenge, our study will explore fault-tolerance & resilience-based approaches to derive a set of high-level requirements for the swarm in the cloakroom.
+%
+%According to [Winfield and Nembrini, 2006], swarms need designed-in measures to counter the effect of partial failures. 
+%
+%Fault tolerance typically consists of fault detection, fault diagnosis and fault recovery.
+%
+%Resilience includes fault tolerance, security and more [Vardi, 2020].
+
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Unmanned Aerial Vehicles}
+A unmanned aerial vehicle (UAV) or drone is a type of aerial vehicle that is capable of autonomous flight without a  pilot on board.
+As UAVs are increasingly being applied in diverse areas of applications \cite{Ukaegbu2021}, such as logistics services, agriculture, emergency response, and security, ensuring their trustworthiness is of utmost importance.  
+Specification of operational environments of UAVs is challenging mainly for two reasons. 
+First, the unclear and uncertain government regulations make it challenging, as these rules may change over time. 
+Second, the complexity and uncertainty of the operational environment of the UAV itself is a challenge. 
+For example, in a parcel delivery service using UAVs in an urban environment, we could mention uncertain flight conditions (e.g. wind gradients), and highly dynamic and uncertain airspace (e.g. other UAVs in operation). 
+
+
+The recent advances in machine learning offer the potential to increase the autonomy of UAVs by allowing them to learn from experience. For example, machine learning can be used to stabilize the flight which can greatly improve performance in gusty urban wind conditions. 
+When one considers the conventional flight controller of a UAV, it can include several measures, such as risetime, overshoot, settling time, and steady-state error.
+The goal of these specification measures is to ensure that the control system is stable and robust. 
+There is disturbance attenuation against environmental uncertainty; smooth and rapid responses to set-point changes; and steady-state accuracy. 
+In this context, a key challenge is how do we specify a UAV should deal with situations that go beyond the limits of its training?
+
+
+%infrastructure monitoring, surveillance, emergency response, and package delivery.
+%The autonomy and decision-making abilities of UAVs is currently limited and well below the level required to operate fully autonomously. However, recent advances in machine learning offer the potential to increase the autonomy of these systems by allowing them to learn from experience. 
+%
+%The recent advances in machine learning offer the potental 
+%require learning. %In this context, the key challenge is
+%More specifically, how do we specify a UAV should deal with situations that go beyond the limits of its training?
+%
+%Fundamental technical challenge: evolving functionality through increasing degrees of adaptation and on-line learning while operating in real world environments - Application example: UAV operations in urban environments
+%
+%
+%However, recent advances in machine learning (ML) offer the potential to increase the autonomy of these systems by allowing them to learn from experience. Here we will investigate the use of ML approaches to stabilize the flight (control the attitude) of UAVs, something that is a highly innovative and unconventional and offers the potential for greatly improved performance in gusty urban wind conditions.
+%
+%7.1 Investigate increasing degrees of ML in UAV flight stabilization. We will develop a series of stabilization control systems that incorporate a spectrum of ML components...
+
+%in regulatory environments in which the 
+%However, the operation of UAVs in applications such as parcel delivery has 
+%For example, in applications like parcel delivery, 
+%
+%There is very little works on UAV flight control which comply standards like DO-178C. 
+%But, no work explores machine learning within that context.
+%How do we specify a UAV should deal with situations beyond the limits of its training?
+%
+%
+%
+%
+%Today the operation of UAVs in applications like parcel delivery is very challenging with complex and uncertain flight conditions (such as wind gradients), and highly dynamic and uncertain air space (such as other UAVs in operation). 
+%
+
+
+
+%commercial development ... How to specify the operational environments in it is working and how that influences the specification. This is two fold. 1) regulatory environment at the moment is changing and unclear in real world it is a challenge..basically if you want to develop a specification for a product which will come out in 5 years and you know that the regulatory, landscape will be different in 5 years and you don't want to be constrained with the current one. The 2nd one is the uncertainty of the environment it is operating. The nature of the urban environment is a challenge. Actually How you specify the limits and criteria on what it needs to deal with is a challenge. If you are doing this for a commercial product... This may be captured by other people about the uncertainty of the environment...
+%
+%last ones spec.. challenges, previous one technical challenges.
+%
+%In regards to specifying operational environments the UAVs are working has several challenges for specification. 
+%
+%the issue of unclear government
+%regulations and also the fact that the UAV is affected by
+%unfavorable weather conditions
+%% en 
+%%Uncertainty of enviornment 
+%
+% speci for a product in 5 years, gojng to
+% 
+%%, aviation industry, traffic monitoring, telecommunication, oil and gas industry.   
+%
+%There are challenges associated with the UAVs such as the safety of humans especially in cases where there is a failure of the UAV system as the crash landing can be disastrous; endurance
+%problem of UAV is another issue, if the sustainability of the
+%battery life can be handled then the UAV system can last
+%longer on air; most UAV systems are developed in the
+%modular form which affects the capacity of load the UAV
+%system can carry; the issue of unclear government
+%regulations and also the fact that the UAV is affected by
+%unfavorable weather conditions.
+%
+%Optimizing delivery time and efficiency of the delivery
+%process is a huge gap to fill in the use of UAV systems for
+%effective delivery [65-70].
+%
+%
+%There is very little works on UAV flight control which comply standards like DO-178C. 
+%But, no work explores machine learning within that context.
+%How do we specify a UAV should deal with situations beyond the limits of its training?
+%
+%
+%
+%
+%Today the operation of UAVs in applications like parcel delivery is very challenging with complex and uncertain flight conditions (such as wind gradients), and highly dynamic and uncertain air space (such as other UAVs in operation). 
+%
+%DO-178C and DO-331 standards target safety-critical avionics systems. 
+%
+%CAP 722 is the primary guidance document for the operation of unmanned aircraft systems within the UK.
+%ED279 standard provides a framework to support designers when performing the Functional Hazard Assessment (FHA) process for Unmanned aircraft system (UAS)/Remotely Piloted Aircraft (RPAs).
+%
+%NATO STANAG 4671 standard is intended to allow military UAVs to operate in other NATO members airspace. 
+%ARP4761 standard provides guidelines and methods for conducting the safety assessment process on civil airborne systems and equipment.
+%
+%DO-254 (hardware) for avionics certification
+%
+%
+%So, when we looked into related works, we noted that there is very little works on UAV flight control which comply standards like DO-178C. 
+%But, to the best of my knowledge, no work explores machine learning within that context.
+%
+%[Machine learning is a branch of AI focused on building applications that learn from data and improve their accuracy over time without being programmed to do so [source: https://www.ibm.com/cloud/learn/machine-learning]
+%
+%
+%
+%In a UAV classical flight controller, based on the mechanics (motion), one can identify two levels or layers: 
+%"rotational" motion and "translational" motion. 
+%These two levels can be divided into how fast it moves (rate) and the position. 
+%This results in 4 layers for the classical flight controller:
+%Angular (rotational) rate (rates)
+%Angular (rotational) position (angles)
+%Translational rate (velocity)
+%Translational position (position)
+%And each layer has 3 axis where each axis contains 3 parameters for the PID called (KP, KI, KD). 
+%These parameters of the PID can be Tuned and analysed.
+%
+%The goal of the specification measures is to ensure the control system is: stable; robust; there is disturbance attenuation against environmental uncertainty; smooth and rapid responses to set-point changes; steady-state accuracy. 
+%
+%That brings me to the first specification challenge. 
+%In this context:
+%How do you specify a UAV should deal with situations beyond the limits of its training?
+%So, when we looked into related works, we noted that there is very little works on UAV flight control which comply standards like DO-178C. 
+%But, to the best of my knowledge, no work explores machine learning within that context.
+%
+%[Machine learning is a branch of AI focused on building applications that learn from data and improve their accuracy over time without being programmed to do so [source: https://www.ibm.com/cloud/learn/machine-learning]
+%
+%PID - proportional, integral and derivative
+%
+%
+%
+%
+%
+%In Work Package 7, UAV flight control strategies and machine learning are investigated that allow to adapt to changes to the parameters of the UAV and of the environment. 
+%
+%In WP 7, they look into different control algorithms such as classical control, machine learning (which can be supervised learning/reinforcement learning) and hybrid models.
+%
+%For specification, in parcel delivery, we consider a total mass of upto 25 kg.
+
+
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%evolving functionality through emergent behaviour – Application example: Storage and retrieval operations using swarm robots
+%
+%Functionality of the system is emergent, a concept rarely used in engineered systems, and evolves based on the capabilities of the robots and the numbers of robots used. However this evolving functionality across many individual robots poses challenges in relation to Design-for-Trustworthiness considerations.
+%How best to develop swarms that are trustworthy by design, useful, and acceptable to users based around the development of swarm systems for storage and retrieval.
+%
+%Fundamental technical challenge: evolving functionality through increasing degrees of adaptation and on-line learning while operating in real world environments - Application example: UAV operations in urban environments
+
+\section{Intellectual Challenges for Research Community}
+
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{TAS Functionality}
+%\noindent\textbf{[Responsible Author:  Dhaminda Abeywickrama]}\\
+%\noindent\textbf{[Source: Dhaminda Abeywickrama's presentation]}\\\\
+%\noindent\textbf{\textit{Author Guidelines: Word count: 300-580 (maximum)}}\\
+%\begin{itemize}
+%	\item \textbf{On the lack of industry standards on autonomous systems with emergent behaviour and learning}
+%	\item \textbf{How do you ensure safety of an autonomous system in situations where it’s behaviour is an “emergent” consequence of the interaction of individual agents with each other and their environment?}
+%	\item \textbf{How do you specify an autonomous system should deal with situations that go beyond the limits of its training?}
+%\end{itemize}
+
+
+%When one considers the existing industry standards, they are implicitly or explicitly based on V life-cycle model which moves from requirements through design onto implementation and testing. 
+%In contrast, the development of ML-based systems follows a different, much more “iterative” life-cycle which typically contains four main phases:
+%Data preparation
+%Model selection
+%Model learning
+%Model verification and validation
+%As a result, there is a need for new standards and guidance that better reflect the ML life-cycle.
+
+%Instead, an adaptive approach to specification and monitoring will be required.
+%
+%The functionality of autonomous systems (what they are meant to do, what they do, and what they could do), evolves over time; where evolution is the process of gradual change, usually from a simpler to a more advanced state.
+%Autonomous systems with evolving functionality – the ability to change in function over time – pose significant challenges to current processes for specifying and monitoring functionality. 
+%Most conventional processes for defining system requirements and characteristics (specification) assume that these are fixed and can be defined in a complete and precise manner before the system goes into operation. 
+%For systems with the ability to adapt their functionality in response to changes in their environment, or their own internal state, this static approach is unlikely to be suitable. 
+%Instead, an adaptive approach to specification and monitoring will be required.
+
+\textbf{On standards for autonomous systems with evolving functionality}
+
+Autonomous systems with \textit{evolving functionality} (i.e. the ability to change in function over time) pose significant challenges to current processes for specifying functionality. 
+Most conventional processes for defining system requirements and characteristics assume that these are fixed and can be defined in a complete and precise manner before the system goes into operation. 
+In this regard, a key limitation is the fact there are no industry standards for specifying evolving functionality, which we discuss using two application areas -- swarm robotics and UAVs.
+%When one considers the existing industry standards, they are implicitly or explicitly based on V life-cycle model which moves from requirements through design onto implementation and testing. 
+%For systems with the ability to adapt their functionality in response to changes in their environment, or their own internal state, this static approach is unlikely to be suitable. 
+
+ 
+In the field of robotics, several safety standards have been developed by ISO/TC 299 for the non-industrial (service) robotics sector (e.g. ISO 13482 \cite{ISO13482}, ISO 23482-1/2 \cite{ISO23482-1,ISO23482-2}), as well as for the industrial robotics sector (e.g. ISO 10218-1/2 \cite{ISO10218-1,ISO10218-2}, ISO/TS 15066 \cite{ISO15066}). 
+Different legal and regulatory requirements apply to different robot categories. 
+In service robotics, ISO 13482 covers the hazards presented by the robots and devices for applications in non-industrial environments for providing services. % rather than manufacturing applications in industrial applications. 
+ISO 23482-1/2 standards extends ISO 13482 with guidance and methods that can be used to test personal care robots.
+On the other hand, in the industrial sector, ISO 10218-1/2 standards provide safety requirements for industrial robots and their integration.
+Meanwhile, ISO/TS 15066 provides safety requirements for collaborative industrial robot systems
+and work environment. 
+Although these industry standards focus on ensuring safety of robots at the individual robot level, there are no standards to ensure safety or any other extra-functional property for \textit{swarms}.
+
+Meanwhile, for the airborne systems and in particular for UAVs, several industry standards and regulations have been introduced to ensure their safe operation. 
+DO-178C \cite{DO-178C} is the primary standard for commercial avionics software development. It provides software considerations for the production of airborne systems and equipment. On the other hand, DO-254 \cite{DO-254} provides guidance for the development of airborne electronic hardware. ED279 \cite{ED279} standard provides a framework to support designers when performing a functional hazard assessment process for an unmanned aircraft system. 
+ARP4761 \cite{ARP4761} provides guidelines and methods for conducting the safety assessment process on civil airborne systems and equipment. 
+NATO STANAG 4671 \cite{STANAG4761} is intended to allow military UAVs to operate in other NATO members airspace. 
+As for regulations within the UK, CAP 722 \cite{CAP722} is the primary guidance document for the operation of unmanned aircraft systems. 
+However, none of these standards or regulations provide safety considerations for machine learning components, which is a key limitation.
+%learning or evolving functionality of the airborne system.
+
+When one considers the existing industry standards for autonomous systems, they are either implicitly or explicitly based on the V life-cycle model, which moves from requirements through design onto implementation and testing. 
+For systems with the ability to adapt their functionality in response to changes in their environment, or their own internal state, this approach is unlikely to be suitable. 
+Therefore, there is a need for new standards that better reflect the life-cycle of an autonomous system with evolving functionality.
+
+%This document provides recommendations for the production of software for airborne systems and equipment that performs its intended function with a level of confidence in safety that complies with airworthiness requirements. Compliance with the objectives of DO-178C is the primary means of obtaining approval of software used in civil aviation products. 
+
+%ED279
+%This document aims at generating a UAS/RPAS FHA, to cover the widest possible number of configurations with the aim of providing UAS system developers a framework to support designers when performing the FHA process. In order to support this, the core functions of a UAS have been identified (slightly tailored from the functions list in draft ARP4761-A for manned platforms) and assessed independently of each other. The production of a Basic FHA is challenging due to the large variance in UAS configurations, meaning that essential functions may not in all cases to be considered independently. Because of this, additional rules have been developed to support the generation of an FHA specific to the implementation being considered.
+%posted on the EUROCAE workspace. 
+
+%In contrast, the development of ML-based systems follows a different, much more “iterative” life-cycle which typically contains four main phases:
+
+%
+
+%, one of the first tasks for the manufacturer is to identify the robot category to which it belongs. 
+%
+%
+%Identifying the robot category is important for any application because different legal and regulatory requirements apply to them.
+%The service robots can be household robots, medical robots and personal care robots. 
+%Meanwhile, according to ISO 8373, an industrial robot is defined to be an “automatically controlled, reprogrammable, multipurpose manipulator, programmable in three or more axes, which can be either fixed in place or mobile for use in industrial automation applications”.
+
+
+%In machine learning, requirements are implicitly encoded in the data. 
+%Although this under-specificity is an appealing feature, yet, this under-specificity poses a significant assurance challenge where one needs to ensure that safety incidents are properly mitigated.
+
+%When one considers the existing approaches and standards, they are implicitly or explicitly based on V life-cycle model which moves from requirements through design onto implementation and testing. 
+%In contrast, the development of ML-based systems follows a different, much more “iterative” life-cycle which typically contains four main phases:
+%Data preparation
+%Model selection
+%Model learning
+%Model verification and validation
+%As a result, there is a need for new standards and guidance that better reflect the ML life-cycle.
+%
+%
+
+%The first three standards that you see on the slide which are ISO 13482, 23482-2, 23482-1 target personal care robots which I have used in our study.
+%
+%The other standards mainly target industrial robots.
+%
+%This Figure shows a categorization of robots by ISO. 
+
+
+
+%%When I reviewed these standards, it was clear to me that the individual robots of the cloakroom better fit into the “mobile servant robots” category, which is a type of personal care robot under service robots.
+%%A mobile servant robot is a personal care robot capable of travelling to perform serving tasks in interaction with humans, e.g. handling objects or exchanging information [ISO 13482:2014, 3.14].
+%
+%
+
+%
+%%It is a technical specification that gives guidelines specifically for the use of collaborative robots.
+%%A collaborative robot is a robot that is aware of its environment.
+%%Robots and robotic devices - Safety requirements for industrial robots. Part 1: Robots (2011)
+%%Specifies safety requirements for the integration of industrial robots and industrial robot systems as defined in ISO 10218-1, and industrial robot cell(s).
+%
+%
+%%The service robot contains most robot subcategories, which can be household robots, medical robots and personal care robots.
+%%The other main robot category is industry robots.
+%
+%%Other topics for robot standardization activities at ISO/TC 299 include: performance criteria, modularity, and vocabulary.
+%
+%
+%%According to ISO 8373 an industrial robot is defined to be an “automatically controlled, reprogrammable, multipurpose manipulator, programmable in three or more axes, which can be either fixed in place or mobile for use in industrial automation applications.”
+%
+%
+%%The International Organization for Standardization (ISO) provides a categorization of standards for robots. Identifying which robot category the individual robots of the cloakroom is important because different legal and regulatory requirements apply to different robot categories.
+%%The service robot contains most robot subcategories, which can be household robots, medical robots and personal care robots.
+%%The other main robot category is industry robots.
+
+
+
+
+%%%%, supplementing the requirements and guidance on collaborative industrial robot operation given in ISO 10218-1 and ISO 10218-2.
+
+
+
+ 
+
+
+
+
+%Following ISO 13482 and ISO/TR 23482-2, we analyse the potential hazards associated, and derive a set of high-level safety requirements to eliminate/reduce risks associated to an acceptable level for individual robots in the cloakroom.
+%
+%Also, we perform a risk reduction according to the three-steps provided in ISO 13482:2014, 5.1 (Fig. 7): 
+%Inherently safe design measures.
+%Adding safeguards, and/or protective measures.
+%Information for use.
+
+%DO-178C and DO-331 standards target safety-critical avionics systems. 
+
+
+
+
+
+%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Conclusion}
+
+\begin{acks}
+This article is a result of the fruitful discussions at the Specifying for Trustworthiness workshop held in conjunction with the Trustworthy Autonomous Systems (TAS) All Hands Meeting. The authors thank all the speakers and fellow participants, and the TAS Hub and EPSRC for their support.
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{TAS-Spec-Bibliography}
+
+\end{document}
+\endinput
